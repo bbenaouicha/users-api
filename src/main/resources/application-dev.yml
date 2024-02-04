@@ -1,0 +1,12 @@
+spring:
+  docker:
+    compose:
+      enabled: false
+  datasource:
+    url: jdbc:postgresql://db:5432/db?serverTimezone=UTC
+    username: foo
+    password: bar
+    hikari:
+      poolName: Hikari
+      auto-commit: true
+      maximum-pool-size: 2

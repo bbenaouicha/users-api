@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: users-api
+  datasource:
+    username: sa
+    jdbc-url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    password: ''
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: 'true'
+
+application:
+  allowed-origins:
+    - http://localhost:80
+    - http://localhost:4200
