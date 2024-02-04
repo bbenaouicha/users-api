@@ -16,7 +16,7 @@ Cette application Spring Boot offre diverses fonctionnalités pour gérer des ut
 
 Pour télécharger le code source de l'application, lancer la commande ci-dessous:
 ```bash
-git clone https//....
+git clone https://github.com/bbenaouicha/users-api.git
 ```
 
 ## Lancement de l'application en local
